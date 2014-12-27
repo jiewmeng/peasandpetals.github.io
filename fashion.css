@@ -104,17 +104,29 @@
 
 
 .social-bar {
-	text-align: center;
-	padding-top:30px;
+  text-align: center;
+  padding-top:10px;
+  margin: 20px 0 0;
 }
-
 .social-bar li{
-	display: inline-block;
-	width:15%;
+  display: inline-block;
+  width:24%;
+  max-width: 100px;
 }
 
 .social-bar img{
-	width:20%;
+  width:100%;
+  max-width: 50px;
+}
+
+.image_b {
+  text-align: center;
+}
+
+.image_b img{
+  display: inline;
+  width:100%;
+  max-width: 600px;
 }
 .description{
 	padding:20px 0px;
@@ -162,10 +174,6 @@ font-weight: 300;
 
 .illustration_description .date{
 padding: 5px 0px;
-}
-
-.image_b img{
-	width:100%;
 }
 
 .mailing-text{
@@ -251,21 +259,13 @@ form#mc-embedded-subscribe-form{
 		float:left;
 	}
 
-	.title{
-		font-size: 14px;
-	}
-	.caption{
-		font-size: 12px;
-	}
 	.description{
 		padding:10px 0px;
 		overflow:hidden;
 		height:100%;
 
 	}
-	.date{
-	font-size: 8px;
-	}
+
 	.input-box{
 	height:20px;
 	width:200px;
@@ -287,37 +287,44 @@ form#mc-embedded-subscribe-form{
 	}
 
 	.mailing-text{
-	padding:10px 0px;
-	width:50%;
-	margin:auto;
+  	padding:10px;
+  	width:70%;
+  	margin:auto;
+    margin-bottom: 20px;
+  }
 
-}
+  .email_font{
+  	font-family: 'Lato', sans-serif;
+  	font-size: 13px;
+  	font-weight: 300px;
+  	text-align: center;
+  }
 
-.email_font{
-	font-family: 'Lato', sans-serif;
-	font-size: 13px;
-	font-weight: 300px;
-	text-align: center;
-}
+  .mail_line{
+  	font-family: 'Lato', sans-serif;
+  	font-size: 14px;
+  	font-weight: 300;
+  }
 
+  .mail_line_smaller{
+  	font-family: 'Lato', sans-serif;
+  	font-size: 10px;
+  	font-weight: 300;
+  	padding: 5px 0px;
+  }
+  #mc_embed_signup{
+  	width:60%;
+  	padding-top:0px;
+  }
 
-.mail_line{
-	font-family: 'Lato', sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-}
+  .christmas_special {
+    text-align: center;
+  }
 
-.mail_line_smaller{
-	font-family: 'Lato', sans-serif;
-	font-size: 10px;
-	font-weight: 300;
-	padding: 5px 0px;
-}
-#mc_embed_signup{
-	width:40%;
-	padding-top:0px;
-}
-
+  .christmas_special img {
+    margin: 20px 0;
+    width: 70%;
+  }
 
 }
 
@@ -335,5 +342,15 @@ form#mc-embedded-subscribe-form{
 		float:left;
 		padding-bottom: 5px;
 	}
+
+  .row-one-left, .row-one-right {
+    width: 100%;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+  }
 
 }
